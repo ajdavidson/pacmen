@@ -75,9 +75,10 @@ $ git clone https://github.com/ajdavidson/pacmen
 # Access
 $ cd pacmen
 
-# Access
+# Run the project
 $ open index.html
 
+# The server will initialize in the <http://localhost:3000>
 ```
 
 ## :memo: License ##
