@@ -85,7 +85,7 @@ $ open index.html
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/ajdavidson" target="_blank">AJD</a>
+Made with :heart: by <a href="https://github.com/ajdavidson" target="_blank">AJ Davidson</a>
 
 &#xa0;
 
