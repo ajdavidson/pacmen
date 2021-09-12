@@ -75,6 +75,9 @@ $ git clone https://github.com/ajdavidson/pacmen
 # Access
 $ cd pacmen
 
+# Access
+$ open index.html
+
 ```
 
 ## :memo: License ##
