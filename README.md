@@ -75,13 +75,6 @@ $ git clone https://github.com/ajdavidson/pacmen
 # Access
 $ cd pacmen
 
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
 ```
 
 ## :memo: License ##
