@@ -46,13 +46,15 @@
 
 ## :dart: About ##
 
-Describe your project
+Start the game by pressing the 'Add Pacman' button.\
+THEN click the 'Start Game' button Once.\
+Add more PacMen by clicking the 'Add Pacman' button.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: JavaScript Animation;\
+:heavy_check_mark: Edge Detection;\
+:heavy_check_mark: PACMAN!;
 
 ## :rocket: Technologies ##
 
@@ -77,6 +79,13 @@ $ cd pacmen
 
 # Run the project
 $ open index.html
+
+```
+## :computer: In Development ##
+
+:heavy_plus_sign:&nbsp; Animated PacMan image\
+:heavy_plus_sign:&nbsp; Image array\
+:heavy_plus_sign:&nbsp; Image Change on Directions
 
 ```
 
