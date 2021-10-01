@@ -2,21 +2,74 @@
 
 <head>
     <title>Pacmen</title>
-    <!-- DO NOT CHANGE THIS LINE OF CODE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <script src="./pacmen.js"></script>
 <style>
 body {
   background-image: url("./images/pac-man-wall-pattern.jpeg");
   background-repeat: repeat;
+  font-family: 'Orbitron', sans-serif;
+}
+.buttonClass {
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    border-color:#d02718;
+    font-weight:bold;
+    border-top-left-radius:18px;
+    border-top-right-radius:18px;
+    border-bottom-left-radius:18px;
+    border-bottom-right-radius:18px;
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    text-shadow: 0px 1px 0px #810e05;
+    background:linear-gradient(rgba(248, 231, 28, 1), rgba(245, 166, 35, 1));
+}
+
+.buttonClass:hover {
+    background: linear-gradient(rgba(245, 166, 35, 1), rgba(248, 231, 28, 1));
 }
 </style>
+    <link rel="stylesheet" href="modal.css">
 </head>
 
 <body>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2><img src="images/PacMan1.png" height="20" width="20"/> &nbsp;Pac Man Factory</h2>
+        </div>
+        <div class="modal-body">
+            <ul id="modal-howTo">
+                <lh>HOW TO USE:</lh>
+                <li>&nbsp;Click Add PacMan</li>
+                <li>&nbsp;Add as many PacMan as you like</li>
+                <li>&nbsp;Click Start Game</li>
+                <li>&nbsp;Add more PacMan if you like</li>
+                <li>&nbsp;Save your Quarters</li>
+                <li>&nbsp;have Fun!</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+            <p>&copy; 2021 Andrew Davidson, MIT License</p>
+        </div>
+    </div>
+</div>
+<!---->
+
     <div id='game'>
-        <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
-        <button onclick='update()' width='200' height='30'>Start Game</button>
+        <button onclick='makeOne()' width='200' height='30' class="buttonClass">Add PacMan</button>
+        <button onclick='update()' width='200' height='30' class="buttonClass">Start Game</button>
     </div>
 </body>
-
+<script type="application/javascript" src="modal.js"></script>
 </html>
