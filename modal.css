@@ -88,6 +88,7 @@ body{
 .modal-body {
     background-color: rgba(0, 0, 0, 0);
     /*padding: 2px 16px;*/
+    font-size: 22px;
 }
 
 .modal-footer {
@@ -106,13 +107,12 @@ body{
     list-style: none;
     padding-left: 10px;
     font-weight: bold;
-    line-height: 2;
+    line-height: 1.64;
     /*font-family: 'Comfortaa', cursive;*/
 }
 #modal-howTo li:before {
     font-family: "Font Awesome 5 Free";
-    content: "\f6e2
-    ";
+    content: "\f6e2";
     font-weight: 900; /* <-- add this */
     color: pink;
 }
